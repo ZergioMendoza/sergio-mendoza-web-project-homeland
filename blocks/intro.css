@@ -92,3 +92,75 @@
       
         
     }
+
+    @media screen and (max-width: 768px)
+    {
+      .intro__title {
+        margin: 0;
+        padding-right: 16px;
+        padding-left: 16px;
+        width: 720px;
+      }
+
+    }
+
+    @media screen and (max-width: 768px) {
+      .intro__text {
+        width: 720px;
+        padding-right: 16px;
+        padding-left: 16px;
+        text-align: center;
+        margin-left: 65px;
+      }
+    }
+    @media screen and (max-width: 768px) {
+      .intro__author {
+        padding-right: 24px;
+        width: 720px;
+        
+      }
+    
+      
+  }
+  @media screen and (max-width: 768px) {
+    .intro__subtext {
+      width: 720px;
+      padding-right: 16px;
+      padding-left: 24px;
+      text-align: center;
+      margin-left: 65px;
+    }
+  }
+
+  @media screen and (max-width: 320px)
+    {
+      .intro__title {
+        margin: 0;
+        padding-right: 16px;
+        padding-left: 16px;
+        width: 288px;
+        font-size: 32px;
+        line-height: 35px;
+        
+      }
+      .intro__subtext {
+        width: 288px;
+       
+      }
+
+      .intro__text {
+        width: 288px;
+        font-size: 24px;
+        text-align: justify;
+        line-height: 30px;
+      }
+
+      .intro__author {
+       
+        width: 288px;
+        text-align: right;
+        
+
+    }
+  }
+

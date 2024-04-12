@@ -38,6 +38,17 @@
       
       @media screen and (max-width: 767px) {
         .photo__grid {
+          width: 80%;
+          height: auto;
+        }
+      }
+
+
+        
+      @media screen and (max-width: 320px) {
+       
+      
+        .photo__grid {
           width: 100%;
           height: auto;
         }

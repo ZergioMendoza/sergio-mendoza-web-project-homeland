@@ -123,7 +123,7 @@
     }
   }
   
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 768px) {
     .place__button {
       margin: 0 16px;
       font-size: 16px;
@@ -136,7 +136,7 @@
   }
   /* --------------- */
   
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 768px) {
     .places {
       margin-top: 62px;
       padding: 0;
@@ -151,18 +151,19 @@
     }
   }
   
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 768px) {
     .place {
       display: flex;
       flex-direction: column;
       padding: 0 24px;
     }
   }
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 768px) {
     .place__title {
       margin: 16px;
     }
   }
+  
   @media screen and (max-width: 1024px) {
     .place__title-text {
       font-size: 2.5rem;
@@ -177,21 +178,37 @@
     }
   }
   
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 768px) {
     .place__text {
       margin: 0 16px;
+     
+      
     }
   }
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 768px) {
     .place__pic {
-      height: 320px;
-      width: 100%;
+    width: 75%;
+    height: 60%;
+     
+      
     }
   }
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 768px) {
     .place__artist {
-      align-self: baseline;
+    align-self: first baseline;
       margin: 0 16px;
     }
   }
   
+  @media screen and (max-width: 320px) {
+
+    .place__title {
+      width: 288px;
+      font-size: 32px;
+      margin-left: 0px;
+      line-height: 35px;
+      text-align: start;
+
+    }
+    
+  }
